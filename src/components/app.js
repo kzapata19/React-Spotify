@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Button from './button';
 
-const App = () => (
-  <div>
-    <Button name={'Click'} clicked={() => console.log('button clicked')}/>
-    <Button name={'Submit'} />
-  </div>
-);
-
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        Hi
+      </div>
+    );
+  }
+}
