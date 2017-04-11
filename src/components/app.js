@@ -1,8 +1,10 @@
 import React from 'react';
+import Button from './button';
 
 const App = () => (
   <div>
-    HI
+    <Button name={'Click'} />
+    <Button name={'Submit'} />
   </div>
 );
 
