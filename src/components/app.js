@@ -3,7 +3,7 @@ import Button from './button';
 
 const App = () => (
   <div>
-    <Button name={'Click'} />
+    <Button name={'Click'} clicked={() => console.log('clicked')}/>
     <Button name={'Submit'} />
   </div>
 );
